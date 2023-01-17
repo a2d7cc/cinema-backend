@@ -46,7 +46,7 @@ export class MovieController {
 
 	@Get('most-popular')
 	async mostPopular() {
-		return this.movieService.getAll()
+		return this.movieService.getMostPopular()
 	}
 
 	@Put('update-count-opened')
